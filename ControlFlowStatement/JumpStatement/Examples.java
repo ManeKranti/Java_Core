@@ -1,0 +1,19 @@
+public class Examples {
+    public static void main(String[] args) {
+        for(int num = 1; num<=50; num++)
+        {
+            if(num%3==0 && num%5==0){
+                System.out.println("FreezeBuzz");
+            }
+            else if(num%3==0){
+                System.out.println("Freeze");
+            }
+            else if(num%5==0){
+                System.out.println("Buzz");
+            }
+            else{
+                System.out.println("num");
+            }
+        }
+    }
+}

@@ -54,9 +54,9 @@ public class VariableAndDatatype{
            int result = ++num;
            System.out.println(result); //First fatch the value then increment
 
-           int d = 10;
-           int res = d++ + d++ + ++d;
-           System.out.println("result");
+           int n = 10, res;
+           res = n++ + n++ + ++n;
+           System.out.println("res");
           
               
 
